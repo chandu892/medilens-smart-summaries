@@ -1,0 +1,20 @@
+{
+  "name": "MediLens — Smarter Medical Summaries",
+  "short_name": "MediLens",
+  "description": "Smarter Medical Summaries and Faster Decisions",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7fbfb",
+  "theme_color": "#0EA5A4",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

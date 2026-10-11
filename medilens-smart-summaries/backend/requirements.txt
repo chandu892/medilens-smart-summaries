@@ -1,0 +1,41 @@
+# MediLens Backend Requirements
+# Install with: pip install -r requirements.txt
+
+# --- Web framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+
+# --- Database ---
+sqlalchemy==2.0.36
+# Switch to psycopg2-binary for PostgreSQL/Supabase:
+# psycopg2-binary==2.9.10
+
+# --- Auth ---
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# --- Config ---
+python-dotenv==1.0.1
+pydantic[email]==2.10.3
+
+# --- PDF processing ---
+pdfplumber==0.11.4
+PyMuPDF==1.24.14
+
+# --- OCR (optional — requires Tesseract installed on OS) ---
+pytesseract==0.3.13
+Pillow==11.0.0
+opencv-python-headless==4.10.0.84
+
+# --- Scanned PDF OCR (optional — requires poppler on OS) ---
+pdf2image==1.17.0
+
+# --- AI (optional — only needed if OPENAI_API_KEY is set) ---
+openai==1.57.4
+
+# --- QR code generation ---
+qrcode[pil]==8.0
+
+# --- Utilities ---
+numpy==2.1.3
